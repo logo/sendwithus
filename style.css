@@ -1,0 +1,21 @@
+
+/**
+ * sendwithus logo.
+ */
+
+.logo[data-logo="sendwithus"] {
+  width: 7.114905727499111em;
+}
+
+.logo[data-logo="sendwithus"] > * {
+  background-image: url(images/logo.svg);
+  margin: 0 0 0 0;
+}
+
+.logo[data-logo="sendwithus"][data-color="black"] > * {
+  background-image: url(images/logo-black.svg);
+}
+
+.logo[data-logo="sendwithus"][data-color="white"] > * {
+  background-image: url(images/logo-white.svg);
+}
